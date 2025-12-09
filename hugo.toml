@@ -1,0 +1,33 @@
+baseURL = "https://Haoahao233.github.io/"
+title = "Liu Zhouhao - Tech Blog"
+theme = "PaperMod"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+[pagination]
+  pagerSize = 10
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowToc = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  comments = false
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
